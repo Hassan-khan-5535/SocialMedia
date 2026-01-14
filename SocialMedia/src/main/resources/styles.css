@@ -1,0 +1,74 @@
+/* --- GLOBAL THEME --- */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-background-color: #fafafa; /* Light Grey Background */
+}
+
+/* --- BUTTONS --- */
+.button {
+    -fx-background-color: #0095f6; /* Facebook/Insta Blue */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8 15 8 15;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-background-color: #0084d9; /* Darker blue on hover */
+}
+.button:pressed {
+    -fx-background-color: #0073bd;
+}
+
+/* --- TEXT FIELDS --- */
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-border-color: #dbdbdb;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-padding: 8;
+}
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #a6a6a6;
+}
+
+/* --- LABELS --- */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #262626;
+    -fx-font-family: 'Segoe UI Black';
+}
+
+.status-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* --- TABLE VIEW --- */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: #dbdbdb;
+    -fx-base: #fafafa; /* Matches background */
+}
+.table-view .column-header-background {
+    -fx-background-color: white;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #dbdbdb;
+}
+.table-view .column-header .label {
+    -fx-text-fill: #8e8e8e;
+    -fx-font-weight: bold;
+}
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-cell-size: 40px;
+}
+.table-row-cell:odd {
+    -fx-background-color: #fafafa;
+}
+.table-row-cell:selected {
+    -fx-background-color: #efefef;
+    -fx-text-fill: black;
+}
