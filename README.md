@@ -10,14 +10,20 @@ A fully functional, desktop-based **Social Media Platform** built with **Java** 
 ## 📸 GUI Screenshots
 
 ### 🔐 Authentication (Login & Sign Up)
-<p float="left">
+<p align="center">
   <img src="screenshots/s1.png" width="100%" />
-  <img src="screenshots/s2.png" width="100%" /> 
+</p>
+
+<p align="center">
+  <img src="screenshots/s2.png" width="100%" />
 </p>
 
 ### 📱 User Dashboard & Feed
-<p float="left">
+<p align="center">
   <img src="screenshots/s3.png" width="100%" />
+</p>
+
+<p align="center">
   <img src="screenshots/s4.png" width="100%" />
 </p>
 
@@ -76,7 +82,7 @@ This project follows a structured **Model-View-Controller (MVC)** inspired appro
 ### Installation
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/Hassan-khan-5535/Socialify.git
+    git clone https://github.com/Hassan-khan-5535/SocialMedia.git
     ```
 2.  **Database Setup**
     * Open **MySQL Workbench**.
