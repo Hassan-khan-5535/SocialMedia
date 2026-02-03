@@ -118,7 +118,7 @@ src
         ├── images                       # Assets (Icons/Logos)
         └── styles.css                   # Global Stylesheet
 ```
+* **Course:** Database Systems (DBS)
+* **University:** COMSATS University Islamabad, Abbottabad Campus
 ---
-University: COMSATS University Islamabad, Abbottabad Campus
-
-This project was developed for academic purposes to demonstrate proficiency in Java, My Sql Workbech, JDBC, and GUI development.
+*This project was developed for academic purposes to demonstrate proficiency in Java, My Sql Workbech, JDBC, and GUI development.*
